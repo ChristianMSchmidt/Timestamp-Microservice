@@ -1,0 +1,14 @@
+{
+  "name": "timestamp",
+  "version": "1.0.0",
+  "description": "Timestamp Microservice for FreeCodeCamps API-Projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "SehrOne",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
