@@ -1,10 +1,12 @@
 const express = require("express");
 const app = express();
+const port = process.env.PORT;
+const parseTime = require("./parseTime.js");
 
-app.get('/', function (req, res) {
-  res.send('Hello World!');
+app.get("/:time", function (req, res) {
+    const output = parseTime(req.params.time);
+    res.end(output);
 });
 
-app.listen(8080, function () {
-  console.log('Example app listening on port 3000!');
+app.listen(port, function () {
 });
