@@ -6,7 +6,7 @@ app.use("/", express.static("./public"));
 
 app.get("/:time", function (req, res) {
     const output = parseTime(req.params.time);
-    res.send(output);
+    res.send(JSON.stringify(output));
 });
 
 app.listen(process.env.PORT || 8080);
