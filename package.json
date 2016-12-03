@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "author": "SehrOne",
   "license": "ISC",
@@ -14,5 +14,13 @@
     "express": "^4.14.0",
     "mocha": "^3.2.0",
     "moment": "^2.17.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SehrOne/Timestamp-Microservice.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SehrOne/Timestamp-Microservice/issues"
+  },
+  "homepage": "https://github.com/SehrOne/Timestamp-Microservice#readme"
 }
